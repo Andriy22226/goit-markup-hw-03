@@ -1,0 +1,252 @@
+:root {
+  --main-color-text: #434455;
+  --secondary-color-text: #2e2f42;
+  --third-color-text: #f4f4fd;
+  --alt-color: #ffffff;
+  --alt-secondary-color-text: #4d5ae5;
+  --alt-secondary-color-btn: #404bbf;
+  --secondary-color-btn: #e7e9fc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+  width: auto;
+  height: auto;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  display: block;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: normal;
+  border-radius: 0;
+  box-shadow: none;
+  order: 0;
+  flex-grow: 0;
+  border-bottom: 0;
+}
+
+/* Container */
+.container {
+  position: relative;
+  width: auto;
+  height: auto;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0 15px;
+}
+
+.list {
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: var(--alt-color);
+  color: var(--main-color-text);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.nav .menu {
+  color: var(--secondary-color-text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact .link {
+  color: var(--main-color-text);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contact {
+  font-style: normal;
+}
+
+.logo {
+  color: var(--alt-secondary-color-text);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo .color {
+  color: var(--secondary-color-text);
+}
+
+.nav .link:hover,
+.contact .link:hover,
+.nav .link:focus,
+.contact .link:focus {
+  color: var(--alt-secondary-color-btn);
+}
+
+/* Hero */
+.hero {
+  padding: 50px;
+  background-color: var(--secondary-color-text);
+  text-align: center;
+  position: relative;
+}
+
+.hero-title {
+  width: 400px;
+  color: var(--alt-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero .btn {
+  margin-top: 48px;
+  color: var(--alt-color);
+  background-color: var(--alt-secondary-color-text);
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero .btn:hover,
+.hero .btn:focus {
+  background-color: var(--alt-secondary-color-btn);
+}
+
+/* Section */
+
+.section {
+  padding-top: 120px;
+}
+
+.section-title {
+  padding-bottom: 72px;
+  color: var(--secondary-color-text);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+.section .list-title {
+  text-align: left;
+  color: var(--secondary-color-text);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.activity .section {
+  padding-bottom: 0px;
+}
+
+.activity .list-text {
+  width: 400px;
+  text-align: left;
+}
+
+.products.section {
+  padding-bottom: 120px;
+}
+
+.team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: var(--third-color-text);
+}
+
+.personal {
+  background-color: var(--alt-color);
+}
+
+.prof {
+  font-size: 16px;
+}
+
+/* Footer */
+.footer {
+  padding: 50px;
+  background-color: var(--secondary-color-text);
+}
+
+.footer .container {
+  flex-direction: column;
+  text-align: start;
+}
+
+.footer .logo {
+  color: var(--alt-secondary-color-text);
+  text-decoration: none;
+}
+
+.footer .color {
+  color: var(--third-color-text);
+}
+.footer .text {
+  margin-top: 17.5px;
+  width: 400px;
+  color: var(--third-color-text);
+}
+
+/* Portfolio */
+.filter {
+  color: var(--alt-secondary-color-text);
+  background-color: var(--third-color-text);
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--alt-color);
+  background-color: var(--alt-secondary-color-btn);
+}
+
+.list.projects .link,
+.type {
+  text-decoration: none;
+  color: var(--main-color-text);
+  letter-spacing: 0.02em;
+}
