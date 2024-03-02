@@ -14,125 +14,162 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 
-    <link rel="stylesheet" href="./css/styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+      <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
-        <a class="logo link" href="./index.html"
-          >WEB<span class="color">Studio</span></a
-        >
-        <ul class="list">
-          <li>
-            <a class="menu link" href="./index.html">Studio</a>
+      <div class="container nav-flex">
+        <nav class="header-nav">
+          <a class="logo link" href="./index.html"
+            >WEB<span class="logo-black">Studio</span></a>
+          <ul class="header-nav-list list">
+            <li class="header-nav-item">
+              <a class="header-nav-link link " href="./index.html">Studio</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link current" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contact-list list">
+          <li class="header-contact-item">
+            <a class="header-contact-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a>
           </li>
-          <li>
-            <a class="menu link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="menu link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contact">
-        <ul class="list">
-          <li>
-            <a class="link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+          <li class="header-contact-item">
+            <a class="header-contact-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
             >
           </li>
-          <li>
-            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
         </ul>
-      </address>
+      </div>
     </header>
+  <!-- Main content-->
     <main>
-      <section class="section">
-        <h1 class="hidden">WebStudio Projects</h1>
-        <ul class="list">
-          <li><button class="filter" type="button">All</button></li>
-          <li><button class="filter" type="button">Web Site</button></li>
-          <li><button class="filter" type="button">App</button></li>
-          <li><button class="filter" type="button">Design</button></li>
-          <li><button class="filter" type="button">Marketing</button></li>
-        </ul>
-        <ul class="list projects">
-          <li>
-            <a class="link" href=""
-              ><img src="./images/bankapp.jpg" alt="Banking App Interface Concept" width="360"
-              >
-              <h2 class="list-title">Banking App Interface Concept</h2>
-              <p class="type">App</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img src="./images/cashpay.jpg" alt="Cashless Payment" width="360">
-              <h2 class="list-title">Cashless Payment</h2>
-              <p class="type">Marketing</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img src="./images/medapp.jpg" alt="Meditation App" width="360">
-              <h2 class="list-title">Meditation App</h2>
-              <p class="type">App</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img src="./images/taxiserv.jpg" alt="Taxi Service" width="360">
-              <h2 class="list-title">Taxi Service</h2>
-              <p class="type">Marketing</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href="">
-              <img src="./images/screenill.jpg" alt="Screen Illustrations" width="360">
-              <h2 class="list-title">Screen Illustrations</h2>
-              <p class="type">Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              ><img src="./images/onlinecourse.jpg" alt="Online Courses" width="360">
-              <h2 class="list-title">Online Courses</h2>
-              <p class="type">Marketing</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img src="./images/instastories.jpg" alt="Instagram Stories Concept" width="360">
-              <h2 class="list-title">Instagram Stories Concept</h2>
-              <p class="type">Design</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img src="./images/orgfood.jpg" alt="Organic Food" width="360">
-              <h2 class="list-title">Organic Food</h2>
-              <p class="type">Web Site</p></a
-            >
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img src="./images/frcoffee.jpg" alt="Fresh Coffee" width="360">
-              <h2 class="list-title">Fresh Coffee</h2>
-              <p class="type">Web Site</p></a
-            >
-          </li>
-        </ul>
+      <section class="portfolio-section">
+        <div class="container">
+          <h1 hidden>examples of work</h1>
+          <ul class="portfolio-btn-list list">
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">All</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Web_site</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Apps</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Design</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Marketing</button>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul class="portfolio-list list"> 
+            <li class="portfolio-item">
+              <img src="./images/tehno.jpg" alt="Technocrat Site" width="370" height="294"> 
+              <div class="portfolio-border">
+                <h2 class="portfolio-list-title">Technocrat</h2>
+                <p class="portfolio-list-text">Web-site</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img src="./images/poster.jpg" alt="guys playing basketball" width="370" height="294">
+              <div class="portfolio-border">
+                <h2 class="portfolio-list-title"> Poster<span>New Orlean vs Golden Star</span></h2>
+                <p class="portfolio-list-text">Design</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img src="./images/seafood.jpg" alt="restaurant logo Seafood" width="370" height="294">
+              <div class="portfolio-border">
+                <h2 class="portfolio-list-title">restaurant <span>Seafood</span></h2>
+                <p class="portfolio-list-text">App</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img src="./images/prime.jpg" alt="prime" width="370" height="294">
+              <div class="portfolio-border">
+                <h2 class="portfolio-list-title">Project <span>Prime</span></h2>
+                <p class="portfolio-list-text">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img src="./images/boxes.jpg" alt="too box" width="370" height="294">
+              <div class="portfolio-border">
+                <h2 class="portfolio-list-title">Project <span>Boxes</span></h2>
+                <p class="portfolio-list-text">App</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img src="./images/monitor.jpg" alt="monitor" width="370" height="294">
+                <div class="portfolio-border">
+                  <h2 class="portfolio-list-title"><span>Inspiration has no Borders</span></h2>
+                  <p class="portfolio-list-text">Web-site</p>
+                </div>
+            </li>
+            <li class="portfolio-item">
+              <img src="./images/limited.jpg" alt="Public journal" width="370" height="294">
+                <div class="portfolio-border">
+                  <h2 class="portfolio-list-title">journal <span>Limited Edition</span></h2>
+                  <p class="portfolio-list-text">Design</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img src="./images/lab.jpg" alt="label LAB" width="370" height="294">
+              <div class="portfolio-border">
+                <h2 class="portfolio-list-title">Project <span>LAB</span></h2>
+                <p class="portfolio-list-text">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-item border">
+              <img src="./images/growing.jpg" alt="man working on macbuca" width="370" height="294">
+               <div class="portfolio-border">
+                <h2 class="portfolio-list-title"><span>Growing Business</span></h2>
+                <p class="portfolio-list-text">App</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="portfolio-bottom">
+     <h2 hidden>Костыль для выравнивания блоков секции, чтобы он не заезжал на футер, когда будет добавлен фон</h2>
+    </div> -->
       </section>
     </main>
+      <!-- Footer-->
     <footer class="footer">
-      <a class="logo link" href="./index.html"
-        >WEB<span class="color">Studio</span></a
-      >
-      <p class="text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">      
+        <a class="logo link" href="./index.html"
+        >WEB<span class="logo-white">Studio</span></a>
+      <!-- Contacts -->
+        <address class="footer-contact">
+          <ul class="footer-contact-list list">
+            <li class="footer-contact-item">
+              <a class="footer-contact-link address link"
+                href="https://goo.gl/maps/CdvJLRiEL6Q8Smko8"
+                target="_blank"
+                rel="noreferrer noopener"
+                >м.Київ, пр-т Лесі Українки, 26</a>
+            </li>
+            <li class="footer-contact-item">
+              <a class="footer-contact-link link"
+                 href="mailto:info@devstudio.com"
+                >info@devstudio.com</a>
+            </li>
+            <li class="footer-contact-item">
+              <a class="footer-contact-link link" href="tel:+380961111111"
+                >+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
